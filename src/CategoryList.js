@@ -20,7 +20,6 @@ const CategoryList = () => {
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  const reload = () => setShow(false);
 
   const categoryList = categories.map((category) => (
     <li key={category}>
@@ -51,10 +50,7 @@ const CategoryList = () => {
             variant="secondary"
             onClick={handleClose}
           >
-            <i class="fas fa-arrow-left"></i>
-          </Button>
-          <Button className="btn-modal" variant="secondary" onClick={reload}>
-            <i class="fas fa-arrow-left"></i>
+            <i className="fas fa-arrow-left"></i>
           </Button>
         </Modal.Footer>
       </Modal>

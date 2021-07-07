@@ -68,7 +68,8 @@ li {
 }
 
 .list-el,
-.btn-modal {
+.btn-modal,
+.btn-another {
   margin-left: 5px;
   margin-right: 5px;
   margin-top: 10px;
@@ -83,7 +84,8 @@ li {
 }
 
 .list-el:hover,
-.btn-modal:hover {
+.btn-modal:hover,
+.btn-another:hover {
   background-color: rgba(9, 9, 121, 1);
   color: rgb(143, 228, 245);
 }
